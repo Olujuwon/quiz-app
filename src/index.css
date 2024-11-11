@@ -12,7 +12,7 @@
 }
 
 :root {
-  --color-main:#cc3928;
+  --color-main:#ea580c;
   --color-dark: #111927;
   --color-bg: #fafafb;
   --color-bgII: #e5e7eb;
@@ -22,7 +22,7 @@
   --color-icons-bg:#f3f4f6;
   --color-icons-border:#e6e7e9;
   --color-question-container:#f9fafb;
-  --color-gradient: linear-gradient(90deg, #965af8, #cc3928);
+  --color-gradient: linear-gradient(90deg, #965af8, #ea580c);
   font-weight: 400;
   color-scheme: light dark;
   font-synthesis: none;
@@ -33,7 +33,7 @@
 }
 
 .dark {
-  --color-main:#cc3928;
+  --color-main:#ea580c;
   --color-dark: #111927;
   --color-bg: #fafafb;
   --color-bgII: #e5e7eb;
@@ -43,7 +43,7 @@
   --color-icons-bg:#f3f4f6;
   --color-icons-border:#e6e7e9;
   --color-question-container:#f9fafb;
-  --color-gradient: linear-gradient(90deg, #965af8, #cc3928);
+  --color-gradient: linear-gradient(90deg, #965af8, #ea580c);
 }
 
 body {

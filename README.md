@@ -71,22 +71,3 @@ This diagram outlines the key components and their corresponding UI element depe
 This diagram illustrates the flow of data and user interactions throughout the application, from loading the quiz page 
 to viewing the results. It also highlights potential error points along the way.
 ![User flow](user-flow.png)
-
-## Some comments to virtual collaborators
-
-### Backend Engineer
-- In the quiz object, I've observed that both "imageUrl" and "iconUrl" have identical values in the sample data. I'd 
-like to discuss the reasoning for having both properties and consider consolidating them into a single property to 
-simplify the structure.
-- Could you clarify the expected request body format for the submit endpoint? Should it include only the answers in a 
-structure similar to the response, or is there additional information required?
-
-### Product designer
-- Additional SVG icons are needed, such as "caret-down" and "arrow-right" for UI consistency
-- It's unclear from the design PDF whether all quiz questions should be displayed on a single page or if there should 
-be a fixed number of questions per page. Could you provide more guidance on this?
-- The design doesn't specify how the UI elements for answer choices should behave once a user has selected an answer. 
-Some clarity on this interaction would be helpful.
-
-## Some Design deviations
-I used Unicode symbols as temporary placeholders for icons until the final SVG icons are provided.
