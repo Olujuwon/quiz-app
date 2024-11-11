@@ -39,8 +39,8 @@ necessary dependencies:
 - Run the application ```npm start```
 - Test the application ```npm test```
 
-Alternatively, you can use the provided deployment bash script: ```./deploy.sh``` , this script will install serve if not
-installed already, install dependencies, build the app, run included tests and serve the build to http://localhost:3000/.
+# DO NOT use the provided deployment bash script: ```./deploy.sh``` for now!.
+
 - NOTE: Please ensure that the port 3000 is free.
 
 ## Folder structure
