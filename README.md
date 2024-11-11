@@ -1,5 +1,9 @@
 # Quiz Application
 
+- ### About :
+This application is static, developed with React, redux and backend is served using Postman. Application is hosted on 
+Amazon S3 and can be reached [HERE](http://reactquizapp.s3-website.eu-north-1.amazonaws.com/)
+
 - ### Clean code : 
 I followed a component-based architecture, ensuring clear separation of concerns by breaking the UI into small, 
 reusable, and self-contained components. All components were named consistently and descriptively, 
